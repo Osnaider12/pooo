@@ -142,12 +142,12 @@ public class Program
         // 3. Simulación de acciones
         Console.WriteLine("\n=== SIMULACIÓN DE ACCIONES ===");
 
-        // Reservar 101 a Juana Pérez
-        double costo1 = hab1.Reservar("Juana Pérez", 3);
+        // Reservar 101 a Osnaider marquez 
+        double costo1 = hab1.Reservar("Osnaider marquez", 3);
         Console.WriteLine($"Reserva Hab 101 - Costo: ${costo1:N0}");
 
-        // Reservar 202 a Luis Gómez
-        double costo2 = hab2.Reservar("Luis Gómez", 2);
+        // Reservar 202 a Neider Hernandez
+        double costo2 = hab2.Reservar("Neider Hernandez", 2);
         Console.WriteLine($"Reserva Hab 202 - Costo: ${costo2:N0}");
 
         // Aplicar descuento del 10% a la 303
