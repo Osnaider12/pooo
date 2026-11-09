@@ -125,9 +125,9 @@ public class Program
     public static void Main()
     {
         // 1. Instanciar habitaciones
-        HabitacionHotel hab1 = new HabitacionHotel(101, "Individual", 50000);
-        HabitacionHotel hab2 = new HabitacionHotel(202, "Doble", 80000);
-        HabitacionHotel hab3 = new HabitacionHotel(303, "Suite", 150000);
+        HabitacionHotel hab1 = new HabitacionHotel(101, "Individual", 70000);
+        HabitacionHotel hab2 = new HabitacionHotel(202, "Doble", 140000);
+        HabitacionHotel hab3 = new HabitacionHotel(303, "Suite", 190000);
 
         List<HabitacionHotel> habitaciones = new List<HabitacionHotel> { hab1, hab2, hab3 };
 
